@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Build Lights</title>
+    <link rel="stylesheet" href="client/index.css"/>
+    <!--    -->
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="title">Build Lights</div>
+    <div class="container">
+        <span class="sub-title">Available Lights</span>
+        <div id="bulb-container">
+            <div class="bulb"></div>
+        </div>
+        <button id="identify-bulb">Identify</button>
+    </div>
+    
+    <div class="container">
+        <span class="sub-title">Available Configs</span>
+        <div id="teamcity-container">
+            <div class="tc-config"></div>
+        </div>
+        <button id="assign-bulb">Assign bulb</button>
+    </div>
+    
+    <div class="container">
+        
+        <div id="assigned-bulbs-container">
+            <div class="assigned-bulb"></div>
+        </div>
+    </div>
+<!--
+    <div class="container">
+        <span class="sub-title">OnBoard LED status</span>
+        <div id="led-container" class="off"><span>OFF</span></div>
+        <div id="led-link-container"><a id="led-link">Toggle LED</a></div>
+    </div>
+-->
+<!--
+    <form action="">
+        <input autocomplete="off" id="m" placeholder="Post message"><button>Send</button>
+    </form>
+-->
+    <script src="client/index.js"></script>
+</body>
+</html>

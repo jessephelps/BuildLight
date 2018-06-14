@@ -1,0 +1,15 @@
+{
+  "name": "build-lights",
+  "description": "Build Lights for Pomiet",
+  "version": "0.0.0",
+  "main": "main.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "noble": "latest",
+    "socket.io": "~1.0.0"
+  }
+}
